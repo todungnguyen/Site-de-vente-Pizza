@@ -1,0 +1,62 @@
+/* ???????????? style de body*/
+body {
+	box-sizing: border-box; /*fixer dimention (padding et border inclus) */
+}
+
+
+/*header*/
+header {
+	padding: 40px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+}
+
+header h1 {
+	font-size: 40px;
+}
+
+header p {
+	font-size: 20px;
+}
+
+/*navigateur*/
+nav {
+	overflow: hidden; /* mettre les floats bien dans le block <=> clear float*/
+	background-color: #333333;
+}
+
+/*navigateur lien */
+nav a {
+	float: right; /*tous les éléments sont mettre en ordre à droite*/
+	display: block; /* ???????? changer display à block (>< inline)*/
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	text-decoration: none; /* supprimer sousligne */
+}
+
+nav a:hover {
+	color: #ddc403;
+}
+
+nav a.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* ??????????????????? */
+img {
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	overflow: hidden;
+    background: #ddd;
+}
+

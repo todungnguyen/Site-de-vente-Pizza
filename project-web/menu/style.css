@@ -1,0 +1,60 @@
+body { 
+    font-family: Verdana; 
+    font-size: 18px; 
+    color: #444; 
+    background-image: url("back1.jpg");
+    background-size: 100% 100%;
+
+} 
+
+html {
+    height: 100%;
+}
+
+a {color: #48577D; text-decoration: none}
+
+a:hover {text-decoration: underline}
+
+h1, h2 {margin-bottom: 15px}
+
+h1 {font-size: 24px}
+h2 {font-size: 16px}
+
+h3 {
+    color: #FF0000;
+}
+
+#container { 
+    width: 800px; 
+    margin: 200px 250px; 
+    background-color: #DCDCDC; 
+    overflow: hidden; /* Set overflow: hidden to clear the floats on #main and #sidebar */
+    padding: 15px; 
+} 
+
+    #main { 
+        width: 540px; 
+        float: left; 
+    } 
+
+        #main table {
+            width: 530px;
+        }
+
+            #main table th {
+                padding: 10px;
+                background-color: #48577D;
+                color: #fff;
+                text-align: left;
+            }
+
+            #main table td {
+                padding: 5px;
+            }
+
+
+
+    #sidebar { 
+        width: 250px; 
+        float: left; 
+    }

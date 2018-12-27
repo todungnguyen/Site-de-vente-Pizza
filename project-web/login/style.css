@@ -1,0 +1,63 @@
+body { 
+    font-family: Verdana; 
+    font-size: 24px; 
+    background-image: url("back.jpg");
+    background-repeat: none;
+    background-size: 100%; 
+} 
+
+html {
+    height: 100%;
+}
+
+p.alert {
+    font-size: 34px; 
+    color: red;
+    text-align: center; 
+}
+
+#container { 
+    width: 700px; 
+    margin: 150px auto; 
+    background-color: #eee; 
+    padding: 15px; 
+    text-align: center;
+} 
+
+#container1 { 
+    width: 450px; 
+    margin: 50px 50px;  
+    padding: 10px; 
+    color: white;
+} 
+
+#client {
+    width: 600px; 
+    margin: 50px 50px;
+    padding: 10px; 
+    background-color: #eee;
+}
+
+#facture {
+    width: 550px; 
+    margin: 50px 50px;
+    padding: 10px; 
+    background-color: #eee;
+}
+
+
+table th {
+    padding: 10px;
+    background-color: #48577D;
+    color: #fff;
+    text-align: left;
+}
+
+table td {
+    padding: 5px;
+}
+
+input {
+    font-size: 22px;
+}
+

@@ -1,0 +1,62 @@
+body {
+    background-image: url("back.jpg");
+    background-repeat: none;
+    background-size: 100%; 
+}
+
+html {
+    height: 100%;
+}
+
+#main {
+    background-color: white;
+    width: 650px;
+    padding: 20px;
+    margin: 150px auto; 
+    overflow: hidden;
+    font-size: 24px;
+}
+
+#imgcontainer {
+   text-align: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+#infocontainer {
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
